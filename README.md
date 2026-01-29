@@ -20,7 +20,6 @@ Este repositório contém um projeto de **automação de testes utilizando Robot
 * Validações de erro quando:
 
   * Campos obrigatórios não são preenchidos
-  * Dados inválidos são informados
 * Execução de múltiplos cenários de cadastro utilizando **banco de massa de dados**
 
 ---
@@ -39,7 +38,7 @@ O projeto está organizado de forma a facilitar a manutenção, reutilização e
   Cenários escritos seguindo o padrão **Given / When / Then**, facilitando a leitura e entendimento do comportamento esperado do sistema.
 
 * **Banco de Massa de Dados**
-  Utilizado para executar múltiplos cadastros automaticamente, variando os dados de entrada e validando diferentes cenários.
+  Utilizado a biblioteca FakerLibrary para geração de varios valores para executar múltiplos cadastros automaticamente, variando os dados de entrada e validando diferentes cenários.
 
 ---
 
